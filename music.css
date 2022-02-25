@@ -1,0 +1,797 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+body{
+    background: black;
+    height: 2000px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1153px;
+    }
+}
+ 
+.flex{
+    display: flex;
+}
+.pos{
+    justify-content: space-between;
+}
+.center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.navbar{
+    
+    
+    top: 0px;
+    width: 100%;
+    padding: 0.75rem 0; 
+}
+ .middle a.dir{
+    color: blanchedalmond;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gap{
+    margin-left: 1.2rem;
+}
+ .search-bar { 
+    border: none;
+    background: ghostwhite;
+    height: 20px;
+    background: transparent;
+}
+.navbar .right a {
+    margin: auto;
+    
+}
+.searching{
+background-color: white;
+height: fit-content;
+width: 200px;
+}
+.search-icon{
+    
+    background-color: orangered;
+    width: 30%;
+}
+.search-glass{
+    margin: 5px;
+    height: 80%;
+}
+.select-language{
+    background: transparent;
+    border: none;
+    color: blanchedalmond;
+}
+.select-language {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: blanchedalmond;
+    margin-right: 1rem;
+    height: min-content;
+    padding: 0.1rem
+    
+}
+.select-language:focus{
+    outline: none;
+}
+.select-language option{
+    color: black;
+    border: 1px white;
+}
+main .hero .back-img{
+    width: 100%;
+    height: 100%;
+}
+
+main .hero .back-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+.quote {
+    /* position: absolute; */
+    color: white;
+    /* bottom: 45%;
+    left: 25% */
+    
+}
+/* REMAINING TO ADD NEON EFFECT and added some animation in text*/
+.quote .web-name {
+    font-size: 50px;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url("./images/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+   
+    animation: back 5s  infinite linear;
+
+}
+@keyframes back {
+    0%{
+        background-position: 2000px 0;
+        background-color: rgb(205, 50, 153);
+        animation-delay: 3s;
+    }
+    35%{
+        background-position: 2000px 0;
+        background-color: rgb(116, 226, 43);
+        animation-delay: 3s;
+    }
+    75%{
+        background-position: 2000px 0;
+        background-color: tomato;
+        animation-delay: 3s;
+    }
+}
+
+
+ 
+
+.quotes-slider {
+    height: 250px;
+    width: 30%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url(./images/music-quotes_5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    animation: 10s music-quotes infinite linear;
+}
+
+ @keyframes music-quotes {
+    0%{
+     background: url("./images/music-quote1.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     border-radius: 12px;
+    }
+    35%{
+     background: url('./images/music_quotes2.png');
+     background-size: 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     border-radius: 12px;
+    }
+    75%{
+      background:url("./images/music-1-900x600.jpg") ;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #c0b6c5;
+      border-radius: 12px;
+    }
+} 
+
+.inner-main{
+    display: flex;
+}
+.slider{
+    width: 80%;
+    
+
+    
+}
+
+
+
+
+.queue {
+    background-color: #151b3a;
+    width: 30%;
+    MARGIN-LEFT: -32px;
+    height: 1260px;
+    margin-top: 17px;
+}
+.artist_container {
+    margin-top: 40px;
+    height: 100px;
+    border: 2px solid white;
+    background: #081667;
+}
+.choose-art{
+    color: white;
+}
+.artist_container {
+    margin-top: 40px;
+    height: 100px;
+    border: 2px solid white;
+    background: #081667;
+    
+}
+.choose-type{
+    color: white;
+}
+.artist{
+    margin: 20px;
+}
+.types{
+    margin: 20px;
+}
+
+
+
+.commonvaris {
+    height: 300px;
+    margin: 20px;
+    box-shadow: 1px;
+    box-shadow: aliceblue;
+    background-color: #151b3a;
+}
+
+
+.single-artist-container {
+    width: 20%;
+    height: 250px;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+/* #arijit{
+    background: url("./images/Arijit.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#sonu{
+    background: url("./images/sonu.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#lata{
+    background: url("./images/lata.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#arman{
+    background: url("./images/arman.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#shreya{
+    background: url("./images/shreya.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} */
+/* ----animation for popular artists */
+.com-container{
+    margin: 50px auto;
+}
+.com-container a {
+    color: white;
+    text-decoration: none;
+}
+.com-heading{
+    color: white;
+    margin: 5px 40px;
+}
+#arijit-singh {
+    height: 100px;
+    width: 100%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url(./images/Arijit.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    animation: 30s arijit infinite linear;
+}
+
+ @keyframes arijit {
+    0%{
+     background: url("./singers/arij1.jpeg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    25%{
+     background: url('./singers/arij2.jpeg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    50%{
+      background:url("./singers/arij3.jpeg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #af2644;
+      animation-duration: 10s;
+      border-radius: 12px;
+    }
+    75%{
+        background:url("./singers/arij4.jpeg") ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: -1px 0px 20px 7px #1bb493;
+        animation-duration: 10s;
+        border-radius: 12px;
+      }
+}
+#sonu-nigam {
+    height: 100px;
+    width: 100%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+     background-image: url(./singers/sonu1.jpeg); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    animation: 30s sonu infinite linear;
+}
+
+ @keyframes sonu {
+    0%{
+     background: url("./singers/sonu2.jpeg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    25%{
+     background: url('./images/sonu.jpeg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    50%{
+      background:url("./singers/sonu3.jpeg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #af2644;
+      animation-duration: 10s;
+      border-radius: 12px;
+    }
+    75%{
+        background:url("./singers/sonu4.jpeg") ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: -1px 0px 20px 7px #1bb493;
+        animation-duration: 10s;
+        border-radius: 12px;
+      }
+}
+#justin-biber {
+    height: 100px;
+    width: 100%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url(./images/Arijit.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    
+    animation: 30s justin infinite linear;
+}
+
+ @keyframes justin {
+    0%{
+     background: url("./images/justin.jpeg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    25%{
+     background: url('./images/selena.jpeg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    50%{
+      background:url("./images/bruno.jpg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #af2644;
+      animation-duration: 10s;
+      border-radius: 12px;
+    }
+    75%{
+        background:url("./images/danish.jpg") ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: -1px 0px 20px 7px #1bb493;
+        animation-duration: 10s;
+        border-radius: 12px;
+      }
+}  
+#charlie-puth {
+    height: 100px;
+    width: 100%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url(./images/Arijit.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    animation: 30s charlie infinite linear;
+}
+
+ @keyframes charlie {
+    0%{
+     background: url("./images/justin.jpeg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    25%{
+     background: url('./images/selena.jpeg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    50%{
+      background:url("./images/bruno.jpg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #af2644;
+      animation-duration: 10s;
+      border-radius: 12px;
+    }
+    75%{
+        background:url("./images/danish.jpg") ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: -1px 0px 20px 7px #1bb493;
+        animation-duration: 10s;
+        border-radius: 12px;
+      }
+} 
+#ed-sheran {
+    height: 100px;
+    width: 100%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url(./images/Arijit.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+    animation: 30s ed infinite linear;
+}
+
+ @keyframes ed {
+    0%{
+     background: url("./images/justin.jpeg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #b5da51;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    25%{
+     background: url('./images/selena.jpeg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     box-shadow: -1px 0px 20px 7px #ec823b;
+     animation-duration: 10s;
+     border-radius: 12px;
+    }
+    50%{
+      background:url("./images/bruno.jpg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      box-shadow: -1px 0px 20px 7px #af2644;
+      animation-duration: 10s;
+      border-radius: 12px;
+    }
+    75%{
+        background:url("./images/danish.jpg") ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-shadow: -1px 0px 20px 7px #1bb493;
+        animation-duration: 10s;
+        border-radius: 12px;
+      }
+} 
+ 
+.pop-art {
+    height: 300px;
+    padding: 5px;
+    margin: 20px;
+    
+}
+/* #chill {
+    height: 250px;
+    width: 45%;
+    box-shadow: -1px 0px 20px 7px #5c614e;
+    position: relative;
+    border: 1px solid white;
+    top: -px;
+    margin: 20px auto;
+    background-image: url("./images/chill-music.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
+     animation: 30s hollywood infinite linear; 
+} */
+
+.music-station-container {
+    width: 15%;
+    height: 150px;
+    border: 2px solid orange;
+    margin: 5px;
+    border-radius: 50%;
+}
+#chill{
+    background-image: url("./images/chill-music.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+    cursor: pointer;
+}
+#chill:hover {
+    transform: scale(1.2);
+    box-shadow: inset 0 0 20px 5px white;
+}
+#study{
+    background-image: url("./images/study-music.2jpg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 1s;
+    object-fit: fill;
+}
+#study:hover {
+    transform: scale(1.2);
+    box-shadow: inset 0 0 20px 5px white;
+}
+#rock{
+    background-image: url("./images/rock-music.jpg");
+    background-size: 100% 100%;
+    transition: 1s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+#rock:hover {
+    transform: scale(1.2);
+    box-shadow: inset 0 0 20px 5px white;
+}
+#workout{
+    background-image: url("./images/workout-music.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+#workout:hover {
+    transform: scale(1.2);
+    box-shadow: inset 0 0 20px 5px white;
+}
+
+.eng-song {
+    width: 25%;
+    
+    height: 100px;
+    margin: 10px auto;
+}
+
+.song-common {
+    width: 30%;
+    height: 60%;
+    border-radius: 6px 6px 6px 6px;
+}
+.eng-song1{
+    width: 30%;
+    height: 30px;
+    border: 2px solid orange;
+
+}
+.hindis{
+    width: 80%;
+}
+.varities{
+    max-height:250px ;
+}
+
+
+
+.random {
+    padding: 5px;
+    border-radius: 9px 9px 9px 9px;
+    height: 60px;
+    /* background-color: lightcoral; */
+    background-color: #59536063;
+    margin: 35px 5px;
+    box-shadow: 0 0 5px 3px #4f4b56;
+}
+
+.random-common{
+    width: 50%;
+    height: 100%;
+    
+}
+.random-songs{
+    margin-left: 20px;
+}
+
+
+
+
+.click{
+    width: 20%;
+    
+}
+.far {
+    color: rgb(255, 105, 180);
+    margin: 15px;
+    cursor: pointer;
+}
+#rand-img1 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img2 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img3 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img4 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img5 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img6 {
+    width: 30%;
+    /* height: 60px; */
+    background: url("./images/random-img6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+.main-part{
+    background: url("./images/viktor-forgacs-B88PgQXS4qg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: 5s back-img infinite linear; 
+
+}
+@keyframes back-img{
+    0%{
+        background: url("./images/back1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        animation-duration: 5s;
+    }
+    33%{
+        background: url("./images/back2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        animation-duration: 5s;
+    }
+    66%{
+        background: url("./images/back3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        animation-duration: 5s;
+    }
+}
+.Main-container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 5%;
+    background: #151b3a;
+}
+.space-aru{
+    justify-content: space-around;
+}
+.foot{
+    background-color: chocolate;
+}
+.far {
+    color: rgb(255, 105, 180);
+    margin: 15px;
+    cursor: pointer;
+}

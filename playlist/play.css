@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   }
+   body{
+    
+       height: 2000px;
+   }
+   .bottom{
+       position: sticky;
+       background:black;
+       height: 130px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       flex-direction: column;
+   }
+   
+    .container{
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+   .contain {
+    min-height: 85vh;
+    padding-bottom: 10px;
+    background: black;
+    background: linear-gradient();
+}
+   #bar{
+       width: 80%;
+       cursor: pointer;
+   }
+   .icon{
+       margin-top: 15px;
+   }
+   .icon i{
+       cursor: pointer;
+   }
+   .random-songs{
+    margin-left: 20px;
+  }
+
+  .random {
+    padding: 5px;
+    border-radius: 9px 9px 9px 9px;
+    height: 60px;
+    /* background-color: lightcoral; */
+    background-color: #59536063;
+    margin: 35px 5px;
+    box-shadow: 0 0 5px 3px #4f4b56;
+}
+.flex{
+    display: flex;
+}
+.pos{
+    justify-content: space-between;
+}
+.random-common{
+    width: 50%;
+    height: 100%;
+    
+}
+.click{
+    width: 20%;
+    
+}
+.far {
+    color: rgb(255, 105, 180);
+    margin: 15px;
+    cursor: pointer;
+}
+#rand-img1 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img2 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img3 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img4 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img5 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img6 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img7 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img8 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img9 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/random-img9.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img10 {
+    width: 20%;
+    /* height: 60px; */
+    background: url("../images/latest-eng-song2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+nav div a{
+    text-decoration: none;
+    font-size: x-large;
+    color: blanchedalmond;
+    height: 30px;
+    padding: 4px;
+    
+}
+nav div a:hover{
+    cursor: pointer;
+    
+    box-shadow: 0px 0px 14px 2px yellow
+}
+.queue{
+
+}

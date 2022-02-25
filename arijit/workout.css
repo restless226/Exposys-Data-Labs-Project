@@ -1,0 +1,316 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+body{
+    background:#1b0e2fe8 ;
+}
+
+ .container {
+    width: 90%;
+    margin: auto;
+    padding: 0 15px; 
+    
+}
+.main1 {
+    height: 150vh;
+    
+    background: #090932;
+}
+ 
+ .searchbar {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px 5px;
+    border: 2px solid #9e0cb3;
+    background: black;
+}
+.left{
+    
+    width: 70%;
+    
+
+}
+
+.right {
+    
+    width: 30%;
+    margin-left: 15px;
+}
+.flex{
+    display: flex;
+}
+.pos{
+    justify-content: space-between;
+}
+.l-section-1 {
+    margin: 10px;
+    width: 90%;
+    height: 20%;
+    background: #2d2146;
+    box-shadow: 0 0 16px 5px #d90c9a;
+}
+
+.l-section-2 {
+    width: 100%;
+    
+    height: 65%;
+    margin-top: 50px;
+}
+#wrkimg {
+    background: url(/images/wrk-img.jpg);
+    box-shadow: inset 1px -20px 20px 0px rgb(31, 31, 22);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.workout-img-cont {
+    width: 40%;
+    height: 100%;
+    
+}
+.bio{
+    
+        width: 60%;
+        margin: auto 5px;
+    
+}
+
+.bio button {
+    background: linear-gradient(50deg, #f50791, transparent);
+    padding: 5px;
+    margin: 5%;
+    border: none;
+    color: white;
+    width: 20%;
+    height: 40px;
+}
+
+
+.random {
+    height: 60px;
+    background-color: #5e5b5b57;
+    box-shadow: 1px 0px 19px 0px #5e5b5b57;
+    margin: 35px 35px;
+}
+
+.random-common{
+    width: 50%;
+    height: 100%;
+    
+}
+#rand-img1 {
+    width: 15%;
+    /* height: 60px; */
+    background: url("../images/milne.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img2 {
+    width: 15%;
+    /* height: 60px; */
+    background: url(../images/fitoor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img3 {
+    width: 15%;
+    /* height: 60px; */
+    background: url("../images/raabta.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img4 {
+    width: 15%;
+    /* height: 60px; */
+    background: url("../images/tera-yaar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img5 {
+    width: 15%;
+    /* height: 60px; */
+    background: url("../images/hamdard.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#rand-img6 {
+    width: 15%;
+    /* height: 60px; */
+    background: url("../images/channa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+.click{
+    width: 20%;
+    
+}
+.far {
+    color: rgb(255, 105, 180);
+    margin: 15px;
+    cursor: pointer;
+}
+
+.new {
+    
+    height: 50vh;
+    margin-bottom: 30px;
+}
+.recently {
+    
+    height: 70vh;
+}
+.nw {
+    height: 80px;
+    
+    margin: 30px 35px;
+    background: #807b7b4a;
+}
+
+.rec {
+    height: 60px;
+    margin: 30px 35px;
+    background: #807b7b4a;
+}
+#nimg1 {
+    width: 30%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/kalank-title.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#nimg2 {
+    width: 30%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/firstcls.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#nimg3 {
+    width: 30%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/desh-mere.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg1 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg2 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg3 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg3.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg4 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg4.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg5 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg5.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+#recimg6 {
+    width: 20%;
+    /* height: 60px; */
+    height: 100%;
+     background: url("../images/recimg6.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    margin-left: 10px;
+    
+    box-shadow: inset 0px 2px 4px 3px #a78eab;
+}
+.fas{
+ color: rgb(255, 47, 99);
+ 
+}
+.heart {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+header a:hover{
+    cursor: pointer;
+    
+    box-shadow: 0px 0px 14px 2px yellow
+}

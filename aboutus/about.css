@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .flex{
+     display: flex;
+ }
+ 
+ .middle a.dir{
+    color: blanchedalmond;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gap{
+    margin-left: 1.2rem;
+}
+.middle{
+    height: 100px;
+    background-color: grey;
+}
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+    }
+
+.info {
+    
+    height: 300px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.tit {
+    font-size: xxx-large;
+    font-family: cursive;
+    color: blueviolet;
+}
+element.style {
+    background: linear-gradient(103deg, #c0b539, #8db4412b);
+}
